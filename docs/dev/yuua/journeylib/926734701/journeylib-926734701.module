@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.yuua",
+    "module": "journeylib",
+    "version": "926734701",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "journeylib-926734701.jar",
+          "url": "journeylib-926734701.jar",
+          "size": 13972,
+          "sha512": "b2e29899491cf1964af925245212fcb3245009c22de57ce0b266f6dcd8101d48e7ac811880e6dda5c219b30dfda7962af1a3435514b29178bbe46fe59e33f958",
+          "sha256": "095c1b2eda14b9a62d586f13e2f97b25f231ee3fadd7185ed57111b9a9c10f8d",
+          "sha1": "645fb9f754c6cc73a6f39debbf1ec7650e059141",
+          "md5": "e77199b69a16f97b020c128b0eae91eb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.3.0-alpha10"
+          }
+        },
+        {
+          "group": "net.dv8tion",
+          "module": "JDA",
+          "version": {
+            "requires": "5.0.0-alpha.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.0.0-alpha.3"
+          }
+        },
+        {
+          "group": "com.jagrosh",
+          "module": "jda-utilities-commons",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20211205"
+          }
+        },
+        {
+          "group": "com.sedmelluq",
+          "module": "lavaplayer",
+          "version": {
+            "requires": "1.3.77"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "com.vdurmont",
+          "module": "emoji-java",
+          "version": {
+            "requires": "5.1.1"
+          }
+        },
+        {
+          "group": "args4j",
+          "module": "args4j",
+          "version": {
+            "requires": "2.33"
+          }
+        },
+        {
+          "group": "net.htmlparser.jericho",
+          "module": "jericho-html",
+          "version": {
+            "requires": "3.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "journeylib-926734701.jar",
+          "url": "journeylib-926734701.jar",
+          "size": 13972,
+          "sha512": "b2e29899491cf1964af925245212fcb3245009c22de57ce0b266f6dcd8101d48e7ac811880e6dda5c219b30dfda7962af1a3435514b29178bbe46fe59e33f958",
+          "sha256": "095c1b2eda14b9a62d586f13e2f97b25f231ee3fadd7185ed57111b9a9c10f8d",
+          "sha1": "645fb9f754c6cc73a6f39debbf1ec7650e059141",
+          "md5": "e77199b69a16f97b020c128b0eae91eb"
+        }
+      ]
+    }
+  ]
+}
