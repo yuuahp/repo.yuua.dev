@@ -3,8 +3,8 @@
   <groupId>dev.yuua</groupId>
   <artifactId>journeylib</artifactId>
   <versioning>
-    <latest>1055487236</latest>
-    <release>1055487236</release>
+    <latest>320308278</latest>
+    <release>320308278</release>
     <versions>
       <version>1229855774</version>
       <version>926734701</version>
@@ -25,7 +25,8 @@
       <version>1507947861</version>
       <version>563413704</version>
       <version>1055487236</version>
+      <version>320308278</version>
     </versions>
-    <lastUpdated>20220118110016</lastUpdated>
+    <lastUpdated>20220118110714</lastUpdated>
   </versioning>
 </metadata>
