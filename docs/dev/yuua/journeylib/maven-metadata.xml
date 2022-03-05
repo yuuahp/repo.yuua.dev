@@ -3,8 +3,8 @@
   <groupId>dev.yuua</groupId>
   <artifactId>journeylib</artifactId>
   <versioning>
-    <latest>0.3.8</latest>
-    <release>0.3.8</release>
+    <latest>0.3.9</latest>
+    <release>0.3.9</release>
     <versions>
       <version>1229855774</version>
       <version>926734701</version>
@@ -42,7 +42,8 @@
       <version>0.3.7-renovate-com-squareup-okhttp3-okhttp-5-x.0</version>
       <version>0.3.7</version>
       <version>0.3.8</version>
+      <version>0.3.9</version>
     </versions>
-    <lastUpdated>20220305120247</lastUpdated>
+    <lastUpdated>20220305120428</lastUpdated>
   </versioning>
 </metadata>
