@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.yuua",
+    "module": "journeylib",
+    "version": "0.3.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "journeylib-0.3.2.jar",
+          "url": "journeylib-0.3.2.jar",
+          "size": 98785,
+          "sha512": "86662cc9328af0a6fa0be813e6ac2d77819c76a6ed99a27913ec8696af6c69c2ba52016579f774bb96009a8f4992bd5591aeae9b576ec1b958f237e048807095",
+          "sha256": "c2abc9c8e69f978ddb034279588bb546ccc79ba74e090802e006ce2c258a66cc",
+          "sha1": "a02bca2e5b78928111dff8b025b8685811116e90",
+          "md5": "da4df6f27214528bfdae254599fb8be1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.3.0-alpha10"
+          }
+        },
+        {
+          "group": "net.dv8tion",
+          "module": "JDA",
+          "version": {
+            "requires": "5.0.0-alpha.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.0.0-alpha.3"
+          }
+        },
+        {
+          "group": "com.jagrosh",
+          "module": "jda-utilities-commons",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20211205"
+          }
+        },
+        {
+          "group": "com.sedmelluq",
+          "module": "lavaplayer",
+          "version": {
+            "requires": "1.3.77"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "com.vdurmont",
+          "module": "emoji-java",
+          "version": {
+            "requires": "5.1.1"
+          }
+        },
+        {
+          "group": "args4j",
+          "module": "args4j",
+          "version": {
+            "requires": "2.33"
+          }
+        },
+        {
+          "group": "net.htmlparser.jericho",
+          "module": "jericho-html",
+          "version": {
+            "requires": "3.4"
+          }
+        },
+        {
+          "group": "org.jraf",
+          "module": "klibnotion",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "journeylib-0.3.2.jar",
+          "url": "journeylib-0.3.2.jar",
+          "size": 98785,
+          "sha512": "86662cc9328af0a6fa0be813e6ac2d77819c76a6ed99a27913ec8696af6c69c2ba52016579f774bb96009a8f4992bd5591aeae9b576ec1b958f237e048807095",
+          "sha256": "c2abc9c8e69f978ddb034279588bb546ccc79ba74e090802e006ce2c258a66cc",
+          "sha1": "a02bca2e5b78928111dff8b025b8685811116e90",
+          "md5": "da4df6f27214528bfdae254599fb8be1"
+        }
+      ]
+    }
+  ]
+}
