@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.yuua",
+    "module": "journeylib",
+    "version": "0.3.3-renovate-configure.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "journeylib-0.3.3-renovate-configure.0.jar",
+          "url": "journeylib-0.3.3-renovate-configure.0.jar",
+          "size": 98785,
+          "sha512": "72dc35df48f55bea2c58b8e5a4f6ed6d42d10b1c8d87fc525ec21e661903cdddf019f8f609a775f3e7f890ee4eeaf10b6c41a6ef72d444ff61b47a671a385654",
+          "sha256": "c3c52790446dad640ca30cf857d3117d6feb062a7446f93ef9dd02c8791652d8",
+          "sha1": "b6164b9048058e31315fcf284844c1bb2cc2e306",
+          "md5": "2c5bff46ed69be3d73292e0f2d3afe4d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.3.0-alpha10"
+          }
+        },
+        {
+          "group": "net.dv8tion",
+          "module": "JDA",
+          "version": {
+            "requires": "5.0.0-alpha.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "5.0.0-alpha.3"
+          }
+        },
+        {
+          "group": "com.jagrosh",
+          "module": "jda-utilities-commons",
+          "version": {
+            "requires": "3.1.0"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20211205"
+          }
+        },
+        {
+          "group": "com.sedmelluq",
+          "module": "lavaplayer",
+          "version": {
+            "requires": "1.3.77"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "com.vdurmont",
+          "module": "emoji-java",
+          "version": {
+            "requires": "5.1.1"
+          }
+        },
+        {
+          "group": "args4j",
+          "module": "args4j",
+          "version": {
+            "requires": "2.33"
+          }
+        },
+        {
+          "group": "net.htmlparser.jericho",
+          "module": "jericho-html",
+          "version": {
+            "requires": "3.4"
+          }
+        },
+        {
+          "group": "org.jraf",
+          "module": "klibnotion",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "journeylib-0.3.3-renovate-configure.0.jar",
+          "url": "journeylib-0.3.3-renovate-configure.0.jar",
+          "size": 98785,
+          "sha512": "72dc35df48f55bea2c58b8e5a4f6ed6d42d10b1c8d87fc525ec21e661903cdddf019f8f609a775f3e7f890ee4eeaf10b6c41a6ef72d444ff61b47a671a385654",
+          "sha256": "c3c52790446dad640ca30cf857d3117d6feb062a7446f93ef9dd02c8791652d8",
+          "sha1": "b6164b9048058e31315fcf284844c1bb2cc2e306",
+          "md5": "2c5bff46ed69be3d73292e0f2d3afe4d"
+        }
+      ]
+    }
+  ]
+}
