@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.yuua",
+    "module": "journeylib",
+    "version": "2.9.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1-rc-1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "journeylib-2.9.1.jar",
+          "url": "journeylib-2.9.1.jar",
+          "size": 187796,
+          "sha512": "a779dd635c1719c7683458867fe68deb2083d4d010f852bbe6ae011b16884489bfd896704d4267704bfdbb7427da0d7e7b663bd5b6a07728bf8f1704a67411ad",
+          "sha256": "9725b666c63865623526a2444e70730d4278cbd6ea069635d6929e2466f013ef",
+          "sha1": "7a518deec203049c3ccb56e3f0530408fe135a6f",
+          "md5": "6f2bff43505a88bfbd45f8a492eb7675"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.dv8tion",
+          "module": "JDA",
+          "version": {
+            "requires": "5.0.0-beta.1"
+          }
+        },
+        {
+          "group": "com.github.minndevelopment",
+          "module": "jda-ktx",
+          "version": {
+            "requires": "9fc90f6"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "com.github.ajalt.mordant",
+          "module": "mordant",
+          "version": {
+            "requires": "2.0.0-beta5"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "journeylib-2.9.1.jar",
+          "url": "journeylib-2.9.1.jar",
+          "size": 187796,
+          "sha512": "a779dd635c1719c7683458867fe68deb2083d4d010f852bbe6ae011b16884489bfd896704d4267704bfdbb7427da0d7e7b663bd5b6a07728bf8f1704a67411ad",
+          "sha256": "9725b666c63865623526a2444e70730d4278cbd6ea069635d6929e2466f013ef",
+          "sha1": "7a518deec203049c3ccb56e3f0530408fe135a6f",
+          "md5": "6f2bff43505a88bfbd45f8a492eb7675"
+        }
+      ]
+    }
+  ]
+}
